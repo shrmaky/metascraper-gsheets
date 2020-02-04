@@ -3,7 +3,7 @@
 There are specific use cases when you need to scrape the website meta. [Metascraper](https://github.com/microlinkhq/metascraper) is an amazing library which makes this easy. My use case was to scrape the website meta & save it in data, so i thought of why not saving directly in google sheet to make in more friendly to non-tech people as well. 
 
 
-### Step:1 Generate Google auth-
+### Step:1 Generate Google auth for accessing the google sheet through this program-
 
 1. Google Developers Console - https://console.developers.google.com/
 2. Create a Project/Select if you already have
