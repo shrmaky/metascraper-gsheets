@@ -32,8 +32,7 @@ There are specific use cases when you need to scrape the website meta. Metascrap
 ### Thanks to developers of 
 
 * [Metascraper](https://github.com/microlinkhq/metascraper)
-* [google-spreadsheet
-](https://www.npmjs.com/package/google-spreadsheet)
+* [google-spreadsheet](https://www.npmjs.com/package/google-spreadsheet)
 
 
 
