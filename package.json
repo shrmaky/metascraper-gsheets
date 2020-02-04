@@ -1,0 +1,25 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metascraper/helpers": "^5.10.7",
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.2",
+    "got": "^10.4.0",
+    "metascraper": "^5.11.0",
+    "metascraper-author": "^5.10.7",
+    "metascraper-clearbit": "^5.11.0",
+    "metascraper-date": "^5.10.7",
+    "metascraper-description": "^5.11.0",
+    "metascraper-image": "^5.10.7",
+    "metascraper-video": "^5.10.7"
+  }
+}
