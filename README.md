@@ -1,12 +1,13 @@
 ## Introduction
 
-There are specific use cases when you need to scrape the website meta. [Metascraper](https://github.com/microlinkhq/metascraper) is an amazing library which makes this easy. My use case was to scrape the website meta & save it in data, so i thought of why not saving directly in google sheet to make in more friendly to non-tech people as well. 
+There are specific use cases when you need to scrape the website meta. Metascraper & google-spreadsheet are an amazing packages which makes this easy. My use case was to scrape the website meta & save it in data, so i thought of why not saving directly in google sheet to make in more friendly to non-tech people as well. 
 
-### What it does
+## What it does
 1. Give a web URL
 2. Metascraper generates meta from the url
 3. Saving the scraped data in google sheets
 
+---
 
 ### Step:1 Generate Google auth for accessing the google sheet through this program-
 
@@ -31,6 +32,8 @@ There are specific use cases when you need to scrape the website meta. [Metascra
 ### Thanks to developers of 
 
 * [Metascraper](https://github.com/microlinkhq/metascraper)
+* [google-spreadsheet
+](https://www.npmjs.com/package/google-spreadsheet)
 
 
 
