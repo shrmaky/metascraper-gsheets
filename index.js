@@ -2,6 +2,9 @@ require('dotenv').config();
 
 const {GoogleSpreadsheet} = require('google-spreadsheet');
 
+// spreadsheet key is the long id in the sheets URL https://docs.google.com/spreadsheets/d/SHEET_ID/
+const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
+
 const metascraper = require('metascraper')([
     require('metascraper-author')(),
     require('metascraper-video')(),
@@ -28,10 +31,6 @@ const targetUrl = 'https://www.google.com';
         });
 
     //console.log(metadata); You can uncomment this at the time of testing.
-
-
-    // spreadsheet key is the long id in the sheets URL https://docs.google.com/spreadsheets/d/SHEET_ID/
-    const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
     // use service account creds
     await doc.useServiceAccountAuth({
