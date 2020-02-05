@@ -1,6 +1,6 @@
 ## Introduction
 
-There are specific use cases when you need to scrape the website meta. Metascraper & google-spreadsheet are an amazing packages which makes this easy. My use case was to scrape the website meta & save it in data, so i thought of why not saving directly in google sheet to make in more friendly to non-tech people as well. 
+There are specific use cases when you need to scrape the website meta(opengraph). Metascraper & google-spreadsheet are an amazing packages which makes this easy. My use case was to scrape the website meta & save it in data, so i thought of why not saving directly in google sheet to make in more friendly to non-tech people as well. 
 
 ## What it does
 1. Give a web URL
@@ -33,6 +33,7 @@ There are specific use cases when you need to scrape the website meta. Metascrap
 
 * [Metascraper](https://github.com/microlinkhq/metascraper)
 * [google-spreadsheet](https://www.npmjs.com/package/google-spreadsheet)
+* [Open Graph](https://ogp.me/)
 
 
 
