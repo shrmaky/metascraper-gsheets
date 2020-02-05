@@ -29,7 +29,7 @@ There are specific use cases when you need to scrape the website meta(opengraph)
 7. node index.js
 
 
-### Thanks to developers of 
+### Ref & Thanks to developers of 
 
 * [Metascraper](https://github.com/microlinkhq/metascraper)
 * [google-spreadsheet](https://www.npmjs.com/package/google-spreadsheet)
