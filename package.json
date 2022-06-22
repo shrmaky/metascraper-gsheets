@@ -13,7 +13,7 @@
     "@metascraper/helpers": "^5.10.7",
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.0.2",
-    "got": "^10.4.0",
+    "got": "^11.8.5",
     "metascraper": "^5.11.0",
     "metascraper-author": "^5.10.7",
     "metascraper-clearbit": "^5.11.0",
